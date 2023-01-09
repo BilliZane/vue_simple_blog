@@ -1,0 +1,30 @@
+.search {
+  &__wrap {
+    position: relative;
+  }
+  &__icon {
+    max-height: 24px;
+    position: absolute;
+    top: 1px;
+    right: 3px;
+    z-index: 1;
+    transition: fill $firstDuration;
+    &:hover {
+      fill: $thirdColor;
+      cursor: pointer;
+    }
+  }
+  &__input {
+    z-index: 0;
+    border: solid 1px $fifthColor;
+    color: $thirdColor;
+    border-radius: 100px;
+    min-height: 26px;
+    min-width: 250px;
+    padding-left: 14px;
+    font-size: 14px;
+    @media (max-width: 400px) {
+      min-width: 250px;
+    }
+  }
+}

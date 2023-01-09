@@ -1,0 +1,44 @@
+.pagination {
+  font-family: "SegoeUIRegular", sans-serif;
+  font-size: 18px;
+  color: $thirdColor;
+  margin: 20px 0;
+  &__body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  &__item {
+    padding: 5px 10px;
+    margin-right: 2px;
+    border-radius: 3px;
+    transition: color $firstDuration, background $firstDuration;
+    &:last-child {
+      margin-right: 0;
+    }
+    &:hover {
+      color: #fff;
+      background: $thirdColor;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+  }
+  &__item--active {
+    color: #fff;
+    background: $thirdColor;
+    border-radius: 3px;
+  }
+  &__prev {
+    margin-right: 15px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  &__next {
+    margin-left: 15px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

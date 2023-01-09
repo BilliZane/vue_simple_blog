@@ -1,0 +1,31 @@
+@import "./reset.scss";
+@import "./fonts.scss";
+@import "./vars.scss";
+
+@import "./blocks/Container.scss";
+@import "./blocks/TheHeader.scss";
+@import "./blocks/TheNav.scss";
+@import "./blocks/TheMain.scss";
+@import "./blocks/Search.scss";
+@import "./blocks/Posts.scss";
+@import "./blocks/Post.scss";
+@import "./blocks/Pagination.scss";
+@import "./blocks/PostDetails.scss";
+@import "./blocks/Table.scss";
+@import "./blocks/Modal.scss";
+@import "./blocks/AddMarkerModal.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 16px;
+  background: $firstColor;
+  font-family: "SegoeUIBold", sans-serif;
+  font-size: 16px;
+}

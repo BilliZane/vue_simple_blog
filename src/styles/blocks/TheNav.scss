@@ -1,0 +1,39 @@
+.nav {
+  margin-top: 20px;
+  &__wrap {
+    min-height: 34px;
+    padding: 2px 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: $thirdColor;
+    border-radius: 3px;
+    border: solid 1px $fourthColor;
+  }
+  &__body {
+    display: flex;
+    align-items: center;
+  }
+  &__item {
+    font-family: "SegoeUIBold", sans-serif;
+    font-size: 14px;
+    color: $firstColor;
+    margin-right: 20px;
+    letter-spacing: 1px;
+    padding-bottom: 2px;
+    border-bottom: solid 2px transparent;
+    transition: color $firstDuration, border $firstDuration;
+    &:last-child {
+      margin-right: 0;
+    }
+    &:hover {
+      color: $secondColor;
+      cursor: pointer;
+    }
+  }
+}
+
+.router-link-active {
+  border-bottom: solid 2px $secondColor;
+  color: $secondColor;
+}

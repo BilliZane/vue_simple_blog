@@ -1,0 +1,42 @@
+.table {
+  padding-top: 20px;
+  font-size: 18px;
+  font-family: "SegoeUIBold", sans-serif;
+  letter-spacing: 1px;
+  &__title {
+    border: solid 1px $firstColor;
+    border-bottom: none;
+    text-align: center;
+    background: $fifthColor;
+    color: $fourthColor;
+    padding: 10px 0;
+  }
+  &__wrap {
+    display: flex;
+    border: solid 1px $firstColor;
+    flex-wrap: wrap;
+  }
+  &__col {
+    border-right: solid 1px $firstColor;
+    flex: 0 1 50%;
+    @media (max-width: 765px) {
+      flex: 0 1 100%;
+    }
+  }
+  &__caption {
+    border-bottom: solid 1px $firstColor;
+    background: $fourthColor;
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  &__row {
+    border-bottom: solid 1px $firstColor;
+    text-align: center;
+    padding: 10px 0;
+    word-wrap: break-word;
+    &:last-child {
+      border: none;
+    }
+  }
+}

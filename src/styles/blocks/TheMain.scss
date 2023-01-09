@@ -1,0 +1,18 @@
+.main {
+  padding: 40px 0;
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  &__text {
+    font-family: "SegoeUIBold", sans-serif;
+    font-size: 24px;
+    color: $thirdColor;
+    @media (max-width: 450px) {
+      padding-bottom: 10px;
+      min-width: 100%;
+    }
+  }
+}

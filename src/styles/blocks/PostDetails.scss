@@ -1,0 +1,22 @@
+.post-datails {
+  background: $thirdColor;
+  color: $firstColor;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  &__title {
+    font-family: "SegoeUIBold", sans-serif;
+    font-size: 24px;
+  }
+  &__body {
+    font-family: "SegoeUIRegular", sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 26px;
+  }
+  &__chart{
+    background: $firstColor;
+    margin-top: 30px;
+  }
+}
