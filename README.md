@@ -1,4 +1,4 @@
-### [Vue.js SPA: «Super Blog and Super Map».](https://billizane.github.io/vue_simple_blog) ###
+# [Vue.js SPA: «Super Blog and Super Map».](https://billizane.github.io/vue_simple_blog) #
 
 ## Technology stack: ##
 
